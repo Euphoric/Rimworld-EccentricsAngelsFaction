@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>EccentricsAngels</defName>
+    <label>Eccentric's Angels</label>
+    <description>Spacer-tech faction that tends to keep to themselves. It is unknown what it's goals are or extend of it's technology. Only that they are all women and wear what looks like maid uniforms.</description>
+    <pawnSingular>Eccentric's staff</pawnSingular>
+    <pawnsPlural>Eccentric's staff</pawnsPlural>
+    <listOrderPriority>38</listOrderPriority>
+    <autoFlee>true</autoFlee>
+    <settlementGenerationWeight>0.3</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Leader</leaderTitle>
+    <factionIconPath>FactionIcon</factionIconPath>
+    <allowedCultures>
+      <li>TheEccentric</li>
+    </allowedCultures>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <fixedLeaderKinds>
+      <li>EccentricsAngels_Leader</li>
+    </fixedLeaderKinds>
+    <colorSpectrum>
+      <li>(1.0, 1.0, 1.0)</li>
+    </colorSpectrum>
+    <rescueesCanJoin>false</rescueesCanJoin>
+    <permanentEnemy>false</permanentEnemy>
+    <factionNameMaker>NamerEccentricsAngelsFaction</factionNameMaker>
+    <settlementNameMaker>NamerEccentricsAngelsBase</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Zezz.PandM">Altruism</li>
+    </requiredMemes>
+    <structureMemeWeights>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+    </structureMemeWeights>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>10</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>3</commonality>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>1</geneticVariance>
+    <allowedArrivalTemperatureRange>
+      <min>-60</min>
+      <max>65</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,200)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <basicMemberKind>EccentricsAngels_Staff</basicMemberKind>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <EccentricsAngels_Staff_Junior>6</EccentricsAngels_Staff_Junior>
+          <EccentricsAngels_Staff>20</EccentricsAngels_Staff>
+          <EccentricsAngels_Security_Ranged>10</EccentricsAngels_Security_Ranged>
+          <EccentricsAngels_Security_Melee>6</EccentricsAngels_Security_Melee>
+          <EccentricsAngels_Leader>1</EccentricsAngels_Leader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <EccentricsAngels_Security_Ranged>10</EccentricsAngels_Security_Ranged>
+          <EccentricsAngels_Security_Melee>6</EccentricsAngels_Security_Melee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <EccentricsAngels_Staff_Junior>3</EccentricsAngels_Staff_Junior>
+          <EccentricsAngels_Staff>10</EccentricsAngels_Staff>
+          <EccentricsAngels_Security_Ranged>10</EccentricsAngels_Security_Ranged>
+          <EccentricsAngels_Security_Melee>6</EccentricsAngels_Security_Melee>
+          <EccentricsAngels_Leader>1</EccentricsAngels_Leader>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>80</configurationListOrderPriority>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+</Defs>
+

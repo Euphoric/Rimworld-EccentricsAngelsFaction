@@ -1,0 +1,42 @@
+Culture
+ - Names
+ - Hair styles
+
+Ideology
+ - Isolatinism
+ - Erratic/Unpredictable
+
+Settlement names
+
+Biological age (18-30), Chronological age(20-100)
+
+Cosmetic implants
+ - will require some coding to generate proper combinations of hedifs
+
+Remove bad traits
+ - Some traits are on spectrum, so it is not possible to remove them without coding
+
+Traders
+ - Only allow trade equipment when allied
+
+Hospitality guests
+
+Combat utilities
+ - Drop turrets
+
+Replace aurora core's Persona Core with research Techprint
+
+Weaker pawn kinds
+ - Current combat pawns are comparable to end-game empire pops
+ - Makes it difficult to generate weaker early-game raids/help
+ 
+Raid quests
+ - Better rewards, but more heavily defended
+
+Visitor, Traveler, Guest frequency
+
+Bugs:
+Leader spawned as Hospitality guard early-game
+Leader spawned with a gun but incapable of violence
+"colonist" spawned as Hospitality guest with wrong ideology
+Leader spawned with Ferral Scattergun

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <!--These are necessary, as commonality==0 will not generate on any pawn, even if it is single required item.-->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="EccentricFrillBase" or @Name="EccentricGearBase" or @Name="EccentricApronBase" or @Name="EccentricUniformBase" or @Name="EccentricUndersuitBase"]/generateCommonality</xpath>
+    <value>
+      <generateCommonality>1</generateCommonality>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="EccentricShieldBeltBase"]/generateCommonality</xpath>
+    <value>
+      <generateCommonality>0.4</generateCommonality>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="EccentricApronHalf" or defName="EccentricApron" or defName="EccentricApronTech" or defName="EccentricUndersuitApsara" or defName="EccentricUniformWorker" or defName="EccentricUniformTech" or defName="EccentricFrillWorker"]/apparel/tags</xpath>
+    <value>
+      <li>Eccentric_Worker</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="EccentricLBEBasic" or defName="EccentricUndersuitArel" or defName="EccentricUniformCombat" or defName="EccentricFrillCombat" or defName="EccentricFrillCombatGlasses" or defName="EccentricFrillCombatHelmet" or defName="Eccentric_ModulatedShieldBelt" or defName="Apparel_SmokepopBelt" or defName="Apparel_PackBroadshield"]/apparel/tags</xpath>
+    <value>
+      <li>Eccentric_Combat_Ranged</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Eccentric_ModulatedShieldBelt"]</xpath>
+    <value>
+      <apparel>
+        <tags>
+          <li>Eccentric_Combat_Ranged</li>
+        </tags>
+      </apparel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="EccentricLBEBasic" or defName="EccentricUndersuitArel" or defName="EccentricUniformCombat" or defName="EccentricFrillCombat" or defName="EccentricFrillCombatGlasses" or defName="EccentricFrillCombatHelmet"]/apparel/tags</xpath>
+    <value>
+      <li>Eccentric_Combat_Melee</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Eccentric_PhasedShieldBelt" or defName="Eccentric_LayeredShieldBelt"]</xpath>
+    <value>
+      <apparel>
+        <tags>
+          <li>Eccentric_Combat_Melee</li>
+        </tags>
+      </apparel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="EccentricUndersuitSeraph" or defName="EccentricUniformLeader" or defName="EccentricApronHalf" or defName="EccentricApron" or defName="EccentricFrillWorker"]/apparel/tags</xpath>
+    <value>
+      <li>Eccentric_Leader</li>
+    </value>
+  </Operation>
+</Patch>

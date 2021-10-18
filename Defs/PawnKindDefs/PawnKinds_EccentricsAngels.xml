@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="EccentricsAngels_Staff_Base" >
+    <race>Human</race>
+    <defaultFactionType>EccentricsAngels</defaultFactionType>
+    <baseRecruitDifficulty>0.5</baseRecruitDifficulty>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+    <chronologicalAgeRange>30~100</chronologicalAgeRange>
+    <minGenerationAge>25</minGenerationAge>
+    <maxGenerationAge>35</maxGenerationAge>
+    <fixedGender>Female</fixedGender>
+    <gearHealthRange>0.9~1.0</gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>1000</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>100</min>
+      <max>1000</max>
+    </weaponMoney>
+    <inventoryOptions>
+      <skipChance>0.01</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>20</min>
+            <max>50</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>3~7</initialWillRange>
+    <initialResistanceRange>9~21</initialResistanceRange>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
+    <disallowedTraits>
+      <li>Wimp</li>
+      <li>Pyromaniac</li>
+      <li>Cannibal</li>
+      <li>Bloodlust</li>
+      <li>Psychopath</li>
+      <li>Jealous</li>
+      <li>Abrasive</li>
+      <!--
+      These are spectrum traits, there doesn't seem to be way to disallow only specific degrees.
+      <li>Depressive</li>
+      <li>ChemicalFascination</li>
+      <li>Ugly</li>
+      <li>StaggeringlyUgly</li>-->
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="EccentricsAngels_Staff_Base">
+    <defName>EccentricsAngels_Staff_Junior</defName>
+    <label>Junior staff</label>
+    <factionLeader>false</factionLeader>
+    <isFighter>false</isFighter>
+    <chronologicalAgeRange Inherit="False"></chronologicalAgeRange>
+    <minGenerationAge>16</minGenerationAge>
+    <maxGenerationAge>23</maxGenerationAge>
+    <combatPower>45</combatPower>
+    <gearHealthRange>0.6~1.4</gearHealthRange>
+    <apparelMoney>600~900</apparelMoney>
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Synthread</stuff>
+      </li>
+      <li>
+        <bodyPartGroup>Legs</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Synthread</stuff>
+      </li>
+    </specificApparelRequirements>
+    <apparelTags Inherit="False">
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <weaponMoney>140~400</weaponMoney>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>EccentricSidearm</li>
+      <li>EccentricMelee</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="EccentricsAngels_Staff_Base">
+    <defName>EccentricsAngels_Staff</defName>
+    <label>Staff</label>
+    <factionLeader>False</factionLeader>
+    <isFighter>False</isFighter>
+    <trader>true</trader>
+    <combatPower>65</combatPower>
+    <apparelMoney>13000~16000</apparelMoney>
+    <apparelTags Inherit="False">
+      <li>Eccentric_Worker</li>
+    </apparelTags>
+    <weaponMoney>1500~9999</weaponMoney>
+    <weaponTags>
+      <li>EccentricSidearm</li>
+      <li>EccentricMelee</li>
+    </weaponTags>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>0.85</biocodeWeaponChance>
+  </PawnKindDef>
+
+  <PawnKindDef Name="EccentricsAngels_Security" ParentName="EccentricsAngels_Staff_Base" Abstract="True">
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>1800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.4</techHediffsChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="EccentricsAngels_Security">
+    <defName>EccentricsAngels_Security_Ranged</defName>
+    <label>Security staff</label>
+    <combatPower>125</combatPower>
+    <apparelMoney>16000~19000</apparelMoney>
+    <apparelTags Inherit="False">
+      <li>Eccentric_Combat_Ranged</li>
+    </apparelTags>
+    <weaponMoney>1500~9999</weaponMoney>
+    <weaponTags>
+      <li>EccentricRifle</li>
+    </weaponTags>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>0.85</biocodeWeaponChance>
+    <disallowedTraits>
+      <li>BodyPurist</li>
+    </disallowedTraits>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>6~13</range>
+      </li>
+    </skills>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="EccentricsAngels_Security">
+    <defName>EccentricsAngels_Security_Melee</defName>
+    <label>Security staff</label>
+    <combatPower>125</combatPower>
+    <apparelMoney>16000~19000</apparelMoney>
+    <apparelTags Inherit="False">
+      <li>Eccentric_Combat_Melee</li>
+    </apparelTags>
+    <weaponMoney>2600~3100</weaponMoney>
+    <weaponTags>
+      <li>UltratechMelee</li>
+    </weaponTags>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>0.85</biocodeWeaponChance>
+    <disallowedTraits>
+      <li>BodyPurist</li>
+    </disallowedTraits>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>8~13</range>
+      </li>
+    </skills>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="EccentricsAngels_Staff_Base">
+    <defName>EccentricsAngels_Leader</defName>
+    <label>Leader</label>
+    <factionLeader>True</factionLeader>
+    <isFighter>False</isFighter>
+    <trader>true</trader>
+    <chronologicalAgeRange>80~300</chronologicalAgeRange>
+    <minGenerationAge>25</minGenerationAge>
+    <maxGenerationAge>35</maxGenerationAge>
+    <combatPower>135</combatPower>
+    <apparelMoney>15000~20000</apparelMoney>
+    <apparelTags Inherit="False">
+      <li>Eccentric_Leader</li>
+    </apparelTags>
+    <weaponMoney>1500~9999</weaponMoney>
+    <weaponTags>
+      <li>EccentricSidearm</li>
+      <li>EccentricLightGun</li>
+    </weaponTags>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>0.85</biocodeWeaponChance>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skills>
+      <li>
+        <skill>Social</skill>
+        <range>6~13</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+
+</Defs>

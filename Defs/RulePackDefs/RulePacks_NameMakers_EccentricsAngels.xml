@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerEccentricsAngelsBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Angel's Rest [Number]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Number</keyword>
+          <path>NameBanks/Numbers</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerEccentricsAngelsFaction</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Ecccentric's Angels</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>
+
+
+
+
+
+
+
