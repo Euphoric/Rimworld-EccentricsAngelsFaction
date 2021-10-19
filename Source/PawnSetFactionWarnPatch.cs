@@ -7,18 +7,19 @@ namespace Euphoric.EccentricTech.Faction
     /// <summary>
     /// Warn if trying to generate pawn for Eccentric's Angels that isn't it's PawnKind.
     /// </summary>
-    [HarmonyPatch(typeof(PawnGenerator), "GeneratePawn", typeof(PawnGenerationRequest))]
-    internal static class PawnGeneratorGeneratePawnWarnPatch
+    [HarmonyPatch(typeof(Pawn), "SetFaction")]
+    internal static class PawnSetFactionWarnPatch
     {
         [HarmonyPrefix]
-        public static void Prefix(PawnGenerationRequest request)
+        // ReSharper disable once InconsistentNaming
+        public static void Prefix(Pawn __instance, RimWorld.Faction newFaction)
         {
             var factionPawnDefs = DefDatabase<PawnKindDef>.AllDefs.Where(def =>
                 def.defaultFactionType == EccentricsAngelsFactionDefOf.EccentricsAngels);
 
-            if (request.Faction?.def == EccentricsAngelsFactionDefOf.EccentricsAngels && !factionPawnDefs.Contains(request.KindDef))
+            if (newFaction?.def == EccentricsAngelsFactionDefOf.EccentricsAngels && !factionPawnDefs.Contains(__instance.kindDef))
             {
-                Log.Warning("Generated pawn for Eccentric's Angels faction which doesn't belong there.");
+                Log.Warning("Set Eccentric's Angels faction to pawn which doesn't belong there.");
             }
         }
     }
