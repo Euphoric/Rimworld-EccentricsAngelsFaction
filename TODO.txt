@@ -1,14 +1,20 @@
+Angel's meal
+ - Fine meal bonus
+ - Never expires
+ - "Shelf-stable meal made from highest-quality ingredients using advanced spacer technology. It's taste can compete with best of restaurants while maintaining balanced nutrition."
+ - Given to Faction's pawns
+ - Sold by the faction
+ - Triple the cost of Packaged Survival Meal?
+
 Culture
  - Names
  - Hair styles
 
 Ideology
- - Isolatinism
+ - Isolationism
  - Erratic/Unpredictable
 
 Settlement names
-
-Biological age (18-30), Chronological age(20-100)
 
 Cosmetic implants
  - will require some coding to generate proper combinations of hedifs
@@ -19,16 +25,10 @@ Remove bad traits
 Traders
  - Only allow trade equipment when allied
 
-Hospitality guests
-
 Combat utilities
  - Drop turrets
 
 Replace aurora core's Persona Core with research Techprint
-
-Weaker pawn kinds
- - Current combat pawns are comparable to end-game empire pops
- - Makes it difficult to generate weaker early-game raids/help
  
 Raid quests
  - Better rewards, but more heavily defended
