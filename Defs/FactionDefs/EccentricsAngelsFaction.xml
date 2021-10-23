@@ -31,26 +31,7 @@
     <factionNameMaker>NamerEccentricsAngelsFaction</factionNameMaker>
     <settlementNameMaker>NamerEccentricsAngelsBase</settlementNameMaker>
     <techLevel>Spacer</techLevel>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
-    </disallowedMemes>
-    <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-      <li MayRequire="Zezz.PandM">Altruism</li>
-    </requiredMemes>
+    <classicIdeo>true</classicIdeo>
     <structureMemeWeights>
       <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
     </structureMemeWeights>
