@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="EccentricCosmeticImplantBase"]</xpath>
+    <value>
+      <tradeTags>
+        <li>Eccentric</li>
+      </tradeTags>
+    </value>
+  </Operation>
+
+</Patch>

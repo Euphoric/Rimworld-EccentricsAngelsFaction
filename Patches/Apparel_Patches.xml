@@ -11,6 +11,13 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="EccentricFrillBase" or @Name="EccentricGearBase" or @Name="EccentricApronBase" or @Name="EccentricUniformBase" or @Name="EccentricUndersuitBase"]/tradeability</xpath>
+    <value>
+      <tradeability>All</tradeability>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="EccentricShieldBeltBase"]/generateCommonality</xpath>
     <value>
       <generateCommonality>0.4</generateCommonality>

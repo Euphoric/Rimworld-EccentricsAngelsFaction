@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="BaseEccentricGun"]</xpath>
+    <value>
+      <tradeTags>
+        <li>Eccentric</li>
+        <li>EccentricWeapon</li>
+      </tradeTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Eccentric_Rosethorn"]</xpath>
+    <value>
+      <tradeTags>
+        <li>Eccentric</li>
+        <li>EccentricWeapon</li>
+      </tradeTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[@Name="BaseEccentricGun"]/tradeability</xpath>
+    <value>
+      <tradeability>All</tradeability>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Eccentric_Rosethorn"]/tradeability</xpath>
+    <value>
+      <tradeability>All</tradeability>
+    </value>
+  </Operation>
+
+</Patch>

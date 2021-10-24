@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Eccentric_Nanoweave" or defName="Eccentric_HexCell"]</xpath>
+    <value>
+      <tradeTags>
+        <li>Eccentric</li>
+      </tradeTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Eccentric_Nanoweave" or defName="Eccentric_HexCell"]/tradeability</xpath>
+    <value>
+      <tradeability>All</tradeability>
+    </value>
+  </Operation>
+
+</Patch>
