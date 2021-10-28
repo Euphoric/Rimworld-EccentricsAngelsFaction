@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Packaged survival meal that gives "ate lavish meal" thoughts. Mostly for flavor than gameplay.-->
+  <ThingDef ParentName="MealBase">
+    <defName>Eccentric_Meal</defName>
+    <label>eccentric's meal</label>
+    <description>
+      <![CDATA[Shelf-stable meal made from highest-quality ingredients using advanced spacer technology. 
+It's taste can compete with best of restaurants while maintaining balanced nutrition.
+
+"..., but they have the best darn food on the planet." - Outlander]]>
+    </description>
+    <graphicData>
+      <texPath>Things/Eccentric/EccentricMeal</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.15</DeteriorationRate>
+      <MarketValue>52</MarketValue>
+      <Mass>0.2</Mass>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <stackLimit>16</stackLimit>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+    <tradeTags>
+      <li>Eccentric</li>
+    </tradeTags>
+    <techLevel>Spacer</techLevel>
+  </ThingDef>
+
+</Defs>

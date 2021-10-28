@@ -66,6 +66,10 @@
 
       <!-- Eccentrics -->
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Eccentric_Meal</thingDef>
+        <countRange>20~40</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Eccentric_Nanoweave</thingDef>
         <countRange>200~600</countRange>
         <price>Expensive</price>

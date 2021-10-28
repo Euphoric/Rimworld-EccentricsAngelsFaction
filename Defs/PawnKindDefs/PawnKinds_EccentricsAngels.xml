@@ -5,7 +5,6 @@
     <race>Human</race>
     <defaultFactionType>EccentricsAngels</defaultFactionType>
     <baseRecruitDifficulty>0.5</baseRecruitDifficulty>
-    <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
     <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
     <chronologicalAgeRange>30~100</chronologicalAgeRange>
@@ -34,6 +33,8 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <invNutrition>2.75</invNutrition>
+    <invFoodDef>Eccentric_Meal</invFoodDef>
     <initialWillRange>3~7</initialWillRange>
     <initialResistanceRange>9~21</initialResistanceRange>
     <chemicalAddictionChance>0</chemicalAddictionChance>
