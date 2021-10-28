@@ -15,7 +15,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Leader</leaderTitle>
-    <factionIconPath>FactionIcon</factionIconPath>
+    <factionIconPath>UI/EccentricsIcon</factionIconPath>
     <allowedCultures>
       <li>TheEccentric</li>
     </allowedCultures>
@@ -31,10 +31,12 @@
     <factionNameMaker>NamerEccentricsAngelsFaction</factionNameMaker>
     <settlementNameMaker>NamerEccentricsAngelsBase</settlementNameMaker>
     <techLevel>Spacer</techLevel>
-    <classicIdeo>true</classicIdeo>
-    <structureMemeWeights>
-      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-    </structureMemeWeights>
+    <requiredMemes>
+      <li>Structure_Eccentrics</li>
+    </requiredMemes>
+    <allowedMemes>
+      <!--keep empty as it forces no errant meme to be added-->
+    </allowedMemes>
     <backstoryFilters>
       <li>
         <categories>

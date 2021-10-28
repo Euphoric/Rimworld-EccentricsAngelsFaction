@@ -3,8 +3,19 @@ Culture
  - Hair styles
 
 Ideology
- - Isolationism
- - Erratic/Unpredictable
+ - Add transhumanism precepts to "The Eccentric" structure
+ - Add "-30" relationship due to being "The Eccentric"
+ - Improve narrative generation
+ - Add hardcoded icon?
+ - Structure represents broader "The Eccentric" organization
+ - Memes represent factions within the organization, with different focuses and ideologies
+  - Anna's faction
+   - Hardcode Thumbo as required venerated animal
+   - Females only
+  - "Security" faction
+  - "Army" faction
+  - "Cladestine" faction
+  - etc..
 
 Settlement names
 
