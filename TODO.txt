@@ -1,11 +1,3 @@
-Angel's meal
- - Fine meal bonus
- - Never expires
- - "Shelf-stable meal made from highest-quality ingredients using advanced spacer technology. It's taste can compete with best of restaurants while maintaining balanced nutrition."
- - Given to Faction's pawns
- - Sold by the faction
- - Triple the cost of Packaged Survival Meal?
-
 Culture
  - Names
  - Hair styles
