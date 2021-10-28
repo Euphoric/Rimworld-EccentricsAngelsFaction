@@ -1,10 +1,25 @@
+
+=== NEEDED FOR FIRST RELEASE
+
+Fix HAR pawn gender generation bug
+
+Settlement names
+
+Ideology
+  - Add "-30" relationship due to being "The Eccentric"
+  - Add at least one meme to default faction
+  - Use custom icons
+
+Still generating random pawns into faction
+
+=== FLAVOR AND POLISH
+
 Culture
  - Names
  - Hair styles
 
 Ideology
  - Add transhumanism precepts to "The Eccentric" structure
- - Add "-30" relationship due to being "The Eccentric"
  - Improve narrative generation
  - Add hardcoded icon?
  - Structure represents broader "The Eccentric" organization
@@ -16,8 +31,7 @@ Ideology
   - "Army" faction
   - "Cladestine" faction
   - etc..
-
-Settlement names
+ - Prevent user from picking the faction's memes
 
 Cosmetic implants
  - will require some coding to generate proper combinations of hedifs
@@ -36,10 +50,7 @@ Replace aurora core's Persona Core with research Techprint
 Raid quests
  - Better rewards, but more heavily defended
 
-Visitor, Traveler, Guest frequency
+Pawn generation
+ - Add soldier pawns with heavy weapons (granade lounches, rocket launchers, etc..)
 
-Bugs:
-Leader spawned as Hospitality guard early-game
-Leader spawned with a gun but incapable of violence
-"colonist" spawned as Hospitality guest with wrong ideology
-Leader spawned with Ferral Scattergun
+Check for CE compatibility
