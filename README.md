@@ -12,3 +12,4 @@ Use at your own risk.
  - Pawns spawned by this faction are using Eccentric's Tech equipment
  - Pawns are always women
  - Can trade for Eccentric's Tech items at bases. No other faction will buy or sell those.
+ - Custom ideology structure to represent "The Eccentric" organization
