@@ -8,13 +8,14 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_ideoName->Eccentric's Angels</li>
-        
-        <li>r_ideoAdjective->[packAdjective]</li>
+        <li>r_ideoName(p=2)->[r_ideoAdjective] [memeCreed]</li>
+        <li>r_ideoName(p=1)->[memeCreed] of [packTheme]</li>
+        <li>r_ideoName(p=0.5,forcePrefix==False)->[memeHyphenPrefix]-[packIdeoName]</li>
+        <li>r_ideoName(p=0.5)->[memeAdjective] [packIdeoName]</li>
 
-        <li>r_memberName->staff</li>
-        <li>r_memberName->employee</li>
-        <li>r_memberName->personnel</li>
+        <li>r_ideoAdjective(p=1)->[packAdjective]</li>
+
+        <li>r_memberName(p=1)->[packMember]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -94,7 +95,7 @@
         <li>memeCreed->belief</li>
         <li>memeCreed(p=3)->ideology</li>
         <li>memeCreed->creed</li>
-        <li>memeCreed->philosophy</li>
+        <li>memeCreed(p=3)->philosophy</li>
         <li>memeCreed->theory</li>
       </rulesStrings>
     </generalRules>
@@ -106,12 +107,13 @@
         </li>
       </patterns>
     </descriptionMaker>
+    <symbolPackOverride>true</symbolPackOverride>
     <symbolPacks>
       <li>
-        <ideoName>Eccentric</ideoName>
+        <ideoName>Eccentrism</ideoName>
         <theme>eccentric</theme>
         <adjective>eccentric</adjective>
-        <member>eccentric</member>
+        <member>personnel</member>
       </li>
     </symbolPacks>
   </MemeDef>

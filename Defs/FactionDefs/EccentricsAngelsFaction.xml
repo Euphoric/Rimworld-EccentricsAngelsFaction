@@ -33,9 +33,11 @@
     <techLevel>Spacer</techLevel>
     <requiredMemes>
       <li>Structure_Eccentrics</li>
+      <li>Transhumanist</li>
+      <li>FemaleSupremacy</li>
     </requiredMemes>
     <allowedMemes>
-      <!--keep empty as it forces no errant meme to be added-->
+      <!--keep empty as it forces no other meme to be added-->
     </allowedMemes>
     <backstoryFilters>
       <li>

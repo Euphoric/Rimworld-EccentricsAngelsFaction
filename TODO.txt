@@ -7,7 +7,6 @@ Settlement names
 
 Ideology
   - Add "-30" relationship due to being "The Eccentric"
-  - Add at least one meme to default faction
   - Use custom icons
 
 Still generating random pawns into faction
