@@ -6,7 +6,6 @@ Fix HAR pawn gender generation bug
 Settlement names
 
 Ideology
-  - Add "-30" relationship due to being "The Eccentric"
   - Use custom icons
 
 Still generating random pawns into faction

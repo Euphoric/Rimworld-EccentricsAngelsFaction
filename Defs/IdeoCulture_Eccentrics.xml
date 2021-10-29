@@ -133,4 +133,13 @@
     </symbolPacks>
   </MemeDef>
 
+  <GoodwillSituationDef>
+    <defName>Eccentrics_Structure_All</defName>
+    <label>eccentric</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>Structure_Eccentrics</meme>
+    <versusAll>true</versusAll>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
 </Defs>
