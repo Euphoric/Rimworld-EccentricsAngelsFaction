@@ -94,6 +94,9 @@
         </options>
       </li>
     </pawnGroupMakers>
+    <baseTraderKinds>
+      <li>Base_EccentricsAngels</li>
+    </baseTraderKinds>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>80</configurationListOrderPriority>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
