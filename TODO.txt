@@ -15,7 +15,6 @@ Still generating random pawns into faction
 
 Culture
  - Names
- - Hair styles
 
 Ideology
  - Add transhumanism precepts to "The Eccentric" structure
