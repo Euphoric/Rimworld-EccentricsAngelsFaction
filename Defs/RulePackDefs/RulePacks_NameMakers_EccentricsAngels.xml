@@ -3,16 +3,14 @@
 
   <RulePackDef>
     <defName>NamerEccentricsAngelsBase</defName>
+    <include>
+      <li>NamerSettlementOutlander</li>
+    </include>
     <rulePack>
       <rulesStrings>
-        <li>name->Angel's Rest [Number]</li>
+        <!--Nothing custom here. Just using the outlander settlement namer.-->
+        <!--<li>name->Angel's Rest [Number]</li>-->
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>Number</keyword>
-          <path>NameBanks/Numbers</path>
-        </li>
-      </rulesRaw>
     </rulePack>
   </RulePackDef>
 

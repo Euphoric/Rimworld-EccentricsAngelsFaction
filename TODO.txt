@@ -3,8 +3,6 @@
 
 Fix HAR pawn gender generation bug
 
-Settlement names
-
 Ideology
   - Use custom icons
 
@@ -14,6 +12,8 @@ Still generating random pawns into faction
 
 Culture
  - Names
+
+Custom settlement names
 
 Ideology
  - Add transhumanism precepts to "The Eccentric" structure
