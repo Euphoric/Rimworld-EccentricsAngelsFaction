@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-using HarmonyLib;
-using Verse;
+﻿using Verse;
 
 namespace Euphoric.EccentricTech.Faction
 {
@@ -10,10 +8,6 @@ namespace Euphoric.EccentricTech.Faction
         public EccentricsAngelsFaction(ModContentPack content)
             : base(content)
         {
-            var harmonyInstance = new Harmony("Euphoric.EccentricTech.EccentricsAngelsFaction");
-            harmonyInstance.PatchAll(Assembly.GetExecutingAssembly());
-
-            Log.Message("Eccentric's Angels Faction patched.");
         }
     }
 }

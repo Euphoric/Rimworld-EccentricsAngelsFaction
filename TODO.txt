@@ -4,12 +4,15 @@
 Fix HAR pawn gender generation bug
  - waiting for PR to be merged : https://github.com/erdelf/AlienRaces/pull/66
 
-Ideology
-  - Use custom icons
-
 Still generating random pawns into faction
 
 === FLAVOR AND POLISH
+
+Forbid bad traits on pawns
+ - Some traits are on spectrum, so it is not possible to remove them without coding
+
+Cosmetic implants
+ - will require some coding to generate proper combinations of hedifs
 
 Culture
  - Names
@@ -30,12 +33,6 @@ Ideology
   - "Cladestine" faction
   - etc..
  - Prevent user from picking the faction's memes
-
-Cosmetic implants
- - will require some coding to generate proper combinations of hedifs
-
-Remove bad traits
- - Some traits are on spectrum, so it is not possible to remove them without coding
 
 Traders
  - Only allow trade equipment when allied

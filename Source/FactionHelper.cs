@@ -13,14 +13,14 @@ namespace Euphoric.EccentricTech.Faction
             TechLevel minTechLevel = TechLevel.Undefined,
             bool allowTemporary = false)
         {
-            Log.Message("Faction random request");
-
             return Find.FactionManager.AllFactions.Where(x =>
             {
                 if (x.IsPlayer || x.Hidden || !x.def.humanlikeFaction || !allowDefeated && x.defeated || !allowTemporary && x.temporary)
                     return false;
                 return minTechLevel == TechLevel.Undefined || x.def.techLevel >= minTechLevel;
-            }).Where(f=>f.def != EccentricsAngelsFactionDefOf.EccentricsAngels).TryRandomElementByWeight(x => tryMedievalOrBetter && x.def.techLevel < TechLevel.Medieval ? 0.1f : 1f, out faction);
+            })
+                .Where(f => f.def != EccentricsAngelsFactionDefOf.EccentricsAngels)
+                .TryRandomElementByWeight(x => tryMedievalOrBetter && x.def.techLevel < TechLevel.Medieval ? 0.1f : 1f, out faction);
         }
     }
 }

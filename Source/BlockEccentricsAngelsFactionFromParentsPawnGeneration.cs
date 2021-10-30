@@ -13,9 +13,10 @@ namespace Euphoric.EccentricTech.Faction
     /// Rimworld can pick random faction when generating a parent for a pawn, while keeping the kind of the child pawn.
     /// This replaces the random selection method with one that doesn't include Eccentric's Angels.
     /// </summary>
-    [HarmonyPatch(typeof(PawnRelationWorker_Sibling), "GenerateParent")]
+    [HarmonyPatch]
     internal static class BlockEccentricsAngelsFactionFromParentsPawnGeneration
     {
+        [HarmonyPatch(typeof(PawnRelationWorker_Sibling), "GenerateParent")]
         [HarmonyTranspiler]
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
@@ -24,7 +25,7 @@ namespace Euphoric.EccentricTech.Faction
             foreach (var instruction in instructions)
             {
                 if (instruction.Is(OpCodes.Callvirt, originalMethod))
-                    yield return new CodeInstruction(OpCodes.Call, newMethod);
+                    yield return new CodeInstruction(OpCodes.Callvirt, newMethod);
                 else
                     yield return instruction;
             }
