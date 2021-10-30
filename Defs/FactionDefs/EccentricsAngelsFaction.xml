@@ -15,7 +15,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Leader</leaderTitle>
-    <factionIconPath>UI/EccentricsIcon</factionIconPath>
+    <factionIconPath>UI/Eccentric/FactionIcon</factionIconPath>
     <allowedCultures>
       <li>TheEccentric</li>
     </allowedCultures>

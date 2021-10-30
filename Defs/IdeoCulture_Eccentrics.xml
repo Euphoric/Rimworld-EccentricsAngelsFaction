@@ -32,7 +32,7 @@
     <allowedPlaceTags>
       <li>OriginSpacer</li>
     </allowedPlaceTags>
-    <iconPath>UI/EccentricsIcon</iconPath>
+    <iconPath>UI/Eccentric/IdeoIcon</iconPath>
     <styleItemTags>
       <li>
         <tag>HairLong</tag>
@@ -92,7 +92,7 @@
     <label>eccentric</label>
     <description>Secrecy and unpredictability. Behavior of these groups seem random to those outside.</description>
     <category>Structure</category>
-    <iconPath>UI/Structures/Structure_Ideological</iconPath>
+    <iconPath>UI/Eccentric/IdeoIcon</iconPath>
     <impact>0</impact>
     <worshipRoomLabel>sanctuary</worshipRoomLabel>
     <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>

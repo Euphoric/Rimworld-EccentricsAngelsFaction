@@ -2,6 +2,7 @@
 === NEEDED FOR FIRST RELEASE
 
 Fix HAR pawn gender generation bug
+ - waiting for PR to be merged : https://github.com/erdelf/AlienRaces/pull/66
 
 Ideology
   - Use custom icons
