@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AlienRace.BackstoryDef Name="BaseEccentricsBackstory" Abstract="True">
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Pyromaniac</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Cannibal</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Psychopath</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Jealous</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Abrasive</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>AnnoyingVoice</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>CreepyBreathing</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>DislikesWomen</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Gourmand</defName>
+        <chance>100</chance>
+      </li>
+
+      <li>
+        <defName>Beauty</defName>
+        <degree>-1</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Beauty</defName>
+        <degree>-2</degree>
+        <chance>100</chance>
+      </li>
+
+      <li>
+        <defName>DrugDesire</defName>
+        <degree>2</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>DrugDesire</defName>
+        <degree>1</degree>
+        <chance>100</chance>
+      </li>
+
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>-2</degree>
+        <chance>100</chance>
+      </li>
+
+      <li>
+        <defName>Nerves</defName>
+        <degree>-1</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Nerves</defName>
+        <degree>-2</degree>
+        <chance>100</chance>
+      </li>
+
+      <li>
+        <defName>Neurotic</defName>
+        <degree>1</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Neurotic</defName>
+        <degree>2</degree>
+        <chance>100</chance>
+      </li>
+    </disallowedTraits>
+    <spawnCategories>
+      <li>EccentricsAngel</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_Staff</defName>
+    <title>Eccentric's staff</title>
+    <titleShort>eccentric's staff</titleShort>
+    <baseDescription>[PAWN_nameDef] is working as Eccentric's employee.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <!--<skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Firefighting</li>
+      <li>Intellectual</li>
+    </workDisables>-->
+    <!--<spawnCategories>
+    </spawnCategories>-->
+  </AlienRace.BackstoryDef>
+
+</Defs>

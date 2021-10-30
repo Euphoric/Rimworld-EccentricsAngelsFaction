@@ -39,21 +39,6 @@
     <initialResistanceRange>9~21</initialResistanceRange>
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
-    <disallowedTraits>
-      <li>Wimp</li>
-      <li>Pyromaniac</li>
-      <li>Cannibal</li>
-      <li>Bloodlust</li>
-      <li>Psychopath</li>
-      <li>Jealous</li>
-      <li>Abrasive</li>
-      <!--
-      These are spectrum traits, there doesn't seem to be way to disallow only specific degrees.
-      <li>Depressive</li>
-      <li>ChemicalFascination</li>
-      <li>Ugly</li>
-      <li>StaggeringlyUgly</li>-->
-    </disallowedTraits>
     <requiredWorkTags>
       <li>ManualDumb</li>
     </requiredWorkTags>

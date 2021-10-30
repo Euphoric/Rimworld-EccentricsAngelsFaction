@@ -42,15 +42,27 @@
     <backstoryFilters>
       <li>
         <categories>
+          <li>EccentricsAngel</li>
           <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
         </categories>
-        <commonality>10</commonality>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>5</commonality>
       </li>
       <li>
         <categories>
-          <li>Offworld</li>
+          <li>EccentricsAngel</li>
+          <li>Tribal</li>
         </categories>
-        <commonality>3</commonality>
+        <excludeAdulthood>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>1</commonality>
       </li>
     </backstoryFilters>
     <geneticVariance>1</geneticVariance>

@@ -27,12 +27,18 @@
       <displayName>Eccentric Tech - Advanced Shields</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2591721581</steamWorkshopUrl>
     </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+    </li>
   </modDependencies>
   <loadAfter>
     <li>Aelanna.EccentricTech.AngelApparel</li>
     <li>Aelanna.EccentricTech.FoxysArmory2</li>
     <li>Aelanna.EccentricTech.Cosmetics2</li>
     <li>Aelanna.EccentricTech.AdvancedShields</li>
+    <li>erdelf.HumanoidAlienRaces</li>
     <li>Zezz.PandM</li>
   </loadAfter>
   <description>Faction of combat-prepared maids based on Aelanna's lore and using Eccentric Tech equipment.</description>
