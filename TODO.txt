@@ -4,8 +4,6 @@
 Fix HAR pawn gender generation bug
  - waiting for PR to be merged : https://github.com/erdelf/AlienRaces/pull/66
 
-Still generating random pawns into faction
-
 === FLAVOR AND POLISH
 
 Forbid bad traits on pawns
