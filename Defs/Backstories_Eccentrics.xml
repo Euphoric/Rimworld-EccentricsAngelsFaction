@@ -99,42 +99,192 @@
       </li>
     </disallowedTraits>
     <spawnCategories>
-      <li>EccentricsAngel</li>
+      <li>Eccentrics</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
     <defName>Eccentrics_Staff</defName>
-    <title>Eccentric's staff</title>
-    <titleShort>eccentric's staff</titleShort>
-    <baseDescription>[PAWN_nameDef] is working as Eccentric's employee.</baseDescription>
+    <title>staff</title>
+    <titleShort>staff</titleShort>
+    <baseDescription>Hauling, cleaning, running errands, [PAWN_nameDef] did all the menial tasks to keep the base running effectively.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
-    <!--<skillGains>
-      <li>
-        <defName>Melee</defName>
-        <amount>2</amount>
-      </li>
+    <skillGains>
       <li>
         <defName>Animals</defName>
-        <amount>3</amount>
+        <amount>1</amount>
       </li>
       <li>
         <defName>Plants</defName>
-        <amount>2</amount>
+        <amount>1</amount>
       </li>
       <li>
         <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Hauling</li>
+      <li>Cleaning</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+      <li>EccentricsJunior</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_ThrumboCaretaker</defName>
+    <title>thrumbo caretaker</title>
+    <titleShort>thrumbo caretaker</titleShort>
+    <baseDescription>Thurmbos are complicated animals. [PAWN_nameDef] knows everything there is about taming, training and taking care such noble creatures.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
         <amount>2</amount>
       </li>
     </skillGains>
-    <workDisables>
-      <li>Firefighting</li>
-      <li>Intellectual</li>
-    </workDisables>-->
-    <!--<spawnCategories>
-    </spawnCategories>-->
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+    </spawnCategories>
   </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_ShieldTechnician</defName>
+    <title>shield technician</title>
+    <titleShort>shield tech</titleShort>
+    <baseDescription>Each of Eccentric's bases is protected by high-tech energy shield. [PAWN_nameDef] took pride in fact that it will always work in emergencies.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+      <li>EccentricsTechnician</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_BionicsDoctor</defName>
+    <title>bionics doctor</title>
+    <titleShort>bionics doctor</titleShort>
+    <baseDescription>Many of Eccentric's staff have bionic replacements. [PAWN_nameDef] was there to craft, install and maintain them to the satisfaction of users.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+      <li>EccentricsTechnician</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_CropTender</defName>
+    <title>crop tender</title>
+    <titleShort>crop tender</titleShort>
+    <baseDescription>[PAWN_nameDef] tended to advanced hydroponic beds to ensure steady production of high-quality foodstuffs.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_MartialArtsInstructor</defName>
+    <title>martial arts instructor</title>
+    <titleShort>martial arts instructor</titleShort>
+    <baseDescription>Using [PAWN_possessive] experience as front-line combatant, [PAWN_nameDef] was training new recruits in self-defense.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsSecurity</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+<!--
+rescuee
+scouted talent
+combat engineer
+negotiator
+hostess
+chef
+digital artist
+weapons expert
+deep drill operator
+pirate hunter
+designated marksman
+combat medic
+R&D staff
+mechanoid hacker
+biosculpting expert
+-->
 
 </Defs>

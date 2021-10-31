@@ -13,3 +13,4 @@ Use at your own risk.
  - Pawns are always women
  - Can trade for Eccentric's Tech items at bases. No other faction will buy or sell those.
  - Custom ideology structure to represent "The Eccentric" organization
+ - Custom backstories
