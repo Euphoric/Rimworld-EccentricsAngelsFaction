@@ -77,6 +77,36 @@
       <li>EccentricSidearm</li>
       <li>EccentricMelee</li>
     </weaponTags>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>EccentricsJunior</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>EccentricsStaff</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>10</commonality>
+      </li>
+    </backstoryFilters>
   </PawnKindDef>
 
   <PawnKindDef ParentName="EccentricsAngels_Staff_Base">
@@ -99,6 +129,50 @@
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <biocodeWeaponChance>0.85</biocodeWeaponChance>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>EccentricsStaff</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>EccentricsTechnician</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>EccentricsJunior</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>5</commonality>
+      </li>
+    </backstoryFilters>
   </PawnKindDef>
 
   <PawnKindDef Name="EccentricsAngels_Security" ParentName="EccentricsAngels_Staff_Base" Abstract="True">
@@ -110,6 +184,36 @@
       <li>Advanced</li>
     </techHediffsTags>
     <techHediffsChance>0.4</techHediffsChance>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>EccentricsSecurity</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>EccentricsStaff</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>5</commonality>
+      </li>
+    </backstoryFilters>
   </PawnKindDef>
 
   <PawnKindDef ParentName="EccentricsAngels_Security">
@@ -204,6 +308,36 @@
         <range>6~13</range>
       </li>
     </skills>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>EccentricsLeader</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>EccentricsStaff</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </categories>
+        <excludeAdulthood>
+          <li>Outlander</li>
+          <li>Offworld</li>
+          <li>Tribal</li>
+        </excludeAdulthood>
+        <commonality>5</commonality>
+      </li>
+    </backstoryFilters>
   </PawnKindDef>
 
 </Defs>
