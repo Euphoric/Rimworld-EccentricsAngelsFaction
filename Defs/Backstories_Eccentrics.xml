@@ -154,7 +154,7 @@
     <skillGains>
       <li>
         <defName>Animals</defName>
-        <amount>5</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Cooking</defName>
@@ -212,13 +212,25 @@
       </li>
       <li>
         <defName>Medicine</defName>
-        <amount>3</amount>
+        <amount>4</amount>
       </li>
     </skillGains>
     <requiredWorkTags>
       <li>Crafting</li>
       <li>Caring</li>
     </requiredWorkTags>
+    <forcedTraits>
+      <li>
+        <defName>Transhumanist</defName>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>BodyPurist</defName>
+        <chance>100</chance>
+      </li>
+    </disallowedTraits>
     <spawnCategories>
       <li>EccentricsStaff</li>
       <li>EccentricsTechnician</li>
@@ -236,7 +248,7 @@
     <skillGains>
       <li>
         <defName>Plants</defName>
-        <amount>6</amount>
+        <amount>7</amount>
       </li>
     </skillGains>
     <requiredWorkTags>
@@ -264,27 +276,161 @@
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
+    <forcedTraits>
+      <li>
+        <defName>Brawler</defName>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
     <spawnCategories>
       <li>EccentricsSecurity</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
-<!--
-rescuee
-scouted talent
-combat engineer
-negotiator
-hostess
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_Rescuee</defName>
+    <title>rescuee</title>
+    <titleShort>rescuee</titleShort>
+    <baseDescription>After being saved from certain death, [PAWN_nameDef] was given offer to become Eccentric's staff. She wowed vengeance on those that almost killed her.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsJunior</li>
+      <li>EccentricsSecurity</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_CombatEngineer</defName>
+    <title>combat engineer</title>
+    <titleShort>combat engineer</titleShort>
+    <baseDescription>When it comes to setting up a defensive perimeter, there is no one better than [PAWN_nameDef]. [PAWN_pronoun] knows how to construct walls, embrasures, barbed wire, turrets and mobile shields such that only suicidal enemy would try an assault.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Constructing</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>EccentricsTechnician</li>
+      <li>EccentricsSecurity</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_Negotiator</defName>
+    <title>negotiator</title>
+    <titleShort>negotiator</titleShort>
+    <baseDescription>[PAWN_nameDef]'s natural charisma made [PAWN_pronoun] useful as negotiator both within and outside the organization.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>2</degree>
+        <chance>33</chance>
+      </li>
+      <li>
+        <defName>Beauty</defName>
+        <degree>1</degree>
+        <chance>66</chance>
+      </li>
+    </forcedTraits>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+      <li>EccentricsLeader</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BaseEccentricsBackstory">
+    <defName>Eccentrics_Hostess</defName>
+    <title>hostess</title>
+    <titleShort>hostess</titleShort>
+    <baseDescription>[PAWN_nameDef] was responsible for assisting guests and keeping them happy. Usually by providing entertainment and serving drinks.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>2</degree>
+        <chance>15</chance>
+      </li>
+      <li>
+        <defName>Beauty</defName>
+        <degree>1</degree>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+    <spawnCategories>
+      <li>EccentricsStaff</li>
+      <li>EccentricsLeader</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!--
 chef
 digital artist
 weapons expert
 deep drill operator
 pirate hunter
 designated marksman
-combat medic
+combat medic (steadfast)
 R&D staff
 mechanoid hacker
 biosculpting expert
+fabrication technician
+scouted talent
+mysterious leader
+runaway
+manic melee fighter
 -->
 
 </Defs>
