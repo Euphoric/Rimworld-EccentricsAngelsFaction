@@ -8,14 +8,20 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_ideoName(p=2)->[r_ideoAdjective] [memeCreed]</li>
-        <li>r_ideoName(p=1)->[memeCreed] of [packTheme]</li>
+        <li>r_ideoName(p=2)->[r_ideoAdjective] [creed]</li>
+        <li>r_ideoName(p=1)->[creed] of [packTheme]</li>
         <li>r_ideoName(p=0.5,forcePrefix==False)->[memeHyphenPrefix]-[packIdeoName]</li>
         <li>r_ideoName(p=0.5)->[memeAdjective] [packIdeoName]</li>
 
         <li>r_ideoAdjective(p=1)->[packAdjective]</li>
 
         <li>r_memberName(p=1)->[packMember]</li>
+      
+        <li>creed(p=3)->principles</li>
+        <li>creed(p=3)->ideology</li>
+        <li>creed->creed</li>
+        <li>creed(p=3)->philosophy</li>
+        <li>creed->theory</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -105,13 +111,6 @@
         <li>memeLeaderAdjective(p=10)->eccentric</li>
         <li>memeMoralist(p=4)->counselor</li>
         <li>memeMoralist(p=4)->guide</li>
-        <li>memeCreed(p=3)->principles</li>
-        <li>memeCreed->ethics</li>
-        <li>memeCreed->belief</li>
-        <li>memeCreed(p=3)->ideology</li>
-        <li>memeCreed->creed</li>
-        <li>memeCreed(p=3)->philosophy</li>
-        <li>memeCreed->theory</li>
       </rulesStrings>
     </generalRules>
     <descriptionMaker>
@@ -131,6 +130,29 @@
         <member>personnel</member>
       </li>
     </symbolPacks>
+    <requireOne>
+      <li>
+        <li>Biosculpting_Accelerated</li>
+      </li>
+      <li>
+        <li>AgeReversal_Demanded</li>
+      </li>
+      <li>
+        <li>BodyMod_Approved</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  
+    <MemeDef>
+    <defName>Meme_AnnasAngels</defName>
+    <label>anna's angels</label>
+    <description>[TODO]</description>
+    <iconPath>UI/Eccentric/IdeoIcon</iconPath>
+    <impact>2</impact>
+    <worshipRoomLabel>sanctuary</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <deityCount>0</deityCount>
+    <renderOrder>-1</renderOrder>
   </MemeDef>
 
   <GoodwillSituationDef>

@@ -416,6 +416,7 @@
   </AlienRace.BackstoryDef>
 
   <!--
+animal tender
 chef
 digital artist
 weapons expert
@@ -426,11 +427,15 @@ combat medic (steadfast)
 R&D staff
 mechanoid hacker
 biosculpting expert
-fabrication technician
+nanofabrication operator
 scouted talent
 mysterious leader
 runaway
 manic melee fighter
+Beautician
+bridge bunny
+bodyguard
+forklift operator/warehouse operator
 -->
 
 </Defs>
