@@ -1,0 +1,31 @@
+Eccentric's Angels faction, for all the fans of Aelanna's commics.
+
+[h1]Notice[/h1]
+This mod is Unlisted, as it is still work in progress.
+[b]Expect breaking changes. Use at your own risk.[/b]
+
+[h1]About[/h1]
+Adds [b]Eccentric's Angels[/b] faction.
+
+[b]Features:[/b]
+[list]
+[*] Pawns use Eccentric's Tech items, apparrel and weapons
+[*] All pawns are female ([i]HAR currently has bug that breaks this feature[/i])
+[*] This faction will buy and sell Eccentric's Tech items
+[*] Custom ideligon ([b]work in progress[/b])
+Includes custom culture, structure and a meme. [i]These are meant to be for flavor and are not meant to be used by players.[/i]
+[*] Custom backstories ([b]help wanted[/b])
+[*] Some of the pawns have animal ears and tail cosmetic bionics ([b]not implemented[/b])
+[/list]
+
+[h1]FAQ[/h1]
+[olist]
+[*][b]CE compatibility?[/b]
+Unknown, untested
+[/olist]
+
+[h1]Credits[/h1]
+Thanks Aelanna "Anna" Ceassara  for creating the original lore and for her Eccentric's Tech mods.
+
+[h1]Contribution[/h1]
+[url=https://github.com/Euphoric/Rimworld-EccentricsAngelsFaction] To report an issue, add a suggestion or contribute to the mod, visit GitHub page.[/url]
